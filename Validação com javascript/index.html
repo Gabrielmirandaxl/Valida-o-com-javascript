@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <title>Validação de formulário</title>
+    </head>
+
+    <body>
+     
+        <div class="container">
+            <header>
+                <h1>Learn to code by watching others</h1>
+            </header>
+
+            <p>
+                see how experienced developers salve problems in real-time.
+                watching scripted tutorials is great, but understanding how
+                developers think is invaluable
+            </p>
+        </div>
+
+        <div class="formulario">
+            <div class="free">
+                <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+
+            <div class="container-form">
+                
+                <form id="login-formulario" action="Login-dados.html">
+                   
+                    <div class="firstName"> 
+                          <input type="text" id="firstname" placeholder="First Name">
+                          <span class="erroFirst"></span>
+                    </div>
+
+                     <div class="lastname">
+                          <input type="text" id="lastname" placeholder="Last Name">
+                          <span class="erroLast"></span>
+                     </div>
+
+                     <div class="email">
+                         <input type="text" id="email" placeholder="Email Address">
+                         <span class="erroEmail"></span>
+                     </div>
+                    
+                     <div class="password">
+                         <input type="password" id="password" placeholder="Password">
+                         <span class="erroPassword"></span>
+                     </div>
+
+                     <button type="submit" class="enviar" >CLAIM YOUR FREE TRIAL</button>
+                     <h5 class="terms">By clicking the button, you are agreeing to our <span> Terms and Services </span> </h5>
+
+                 </form>
+
+            </div>
+
+        </div>
+
+       
+        <script src="script.js"></script>
+    </body>
+</html>

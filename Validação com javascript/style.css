@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-size: cover;
+    background-color: #ff7978;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container{
+   width: 35%;
+}
+
+.container header{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.container p{
+    color: #ffffff;
+}
+
+
+.free{
+    background-color: #5d54a3;
+   padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #000000;
+    text-align: center;
+    color: #bab9d9;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 0px 0px 20px 0px;
+
+    
+}
+
+span:nth-child(1){
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container-form{
+    width: 380px;
+    height: 395px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    
+}
+
+.container-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 390px;
+   
+}
+
+input{
+    width: 280px;
+    height: 45px;
+    padding: 0px 0px 0px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #dedede;
+}
+
+.firstName, .lastname, .email, .password{
+    margin: 0px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.firstName span, .lastname span, .email span, .password span{
+   color: red;
+   font-size: 0.7em;
+}
+
+.enviar{
+    background-color: #37cc8a;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+   border-bottom: #54ac86 solid 5px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+
+}
+
+.terms{
+    margin: 10px 0px 0px 0px;
+    font-size: 0.7em;
+    color: #bab9d9;
+}
+
+.terms span{
+    
+   color: red;
+   text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 460px){
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-size: cover;
+    background-color: #ff7978;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    
+.container header{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+
+}
+
+.container p{
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.free{
+    padding: 15px 20px 15px 20px;
+}
+
+.container-form{
+    width: 320px;
+    height: 395px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    
+}
+
+
+.terms{
+   text-align: center;
+}
+
+}
